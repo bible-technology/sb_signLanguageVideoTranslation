@@ -1,0 +1,28 @@
+{
+    "name": "sb_signLanguageVideoTranslation",
+    "version": "1.0.0",
+    "description": "ScriptureBurrito sample for sign language video.",
+    "main": "code/translate.js",
+    "dependencies": {
+        "ajv": "^6.12.2",
+        "chai": "^4.2.0",
+        "fs-extra": "^9.0.1",
+        "scripture-burrito": "github:bible-technology/scripture-burrito#sm/add_npm_support",
+        "xmldom": "^0.3.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node code/translate.js",
+        "validate": "node code/validate.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bible-technology/sb_signLanguageVideoTranslation.git"
+    },
+    "author": "smorrison@biblesocieties.org",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bible-technology/sb_signLanguageVideoTranslation/issues"
+    },
+    "homepage": "https://github.com/bible-technology/sb_signLanguageVideoTranslation#readme"
+}
