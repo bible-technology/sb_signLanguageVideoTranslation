@@ -364,7 +364,13 @@ class DBLImport {
         } else if (flavorName == "audioTranslation") {
             // Use proper dramatization enum once it exists
             typeJson.flavorType.flavor.dramatization = "singleVoice";
-        } else if (flavorName == "typesetScripture") {} else if (flavorName == "signLanguageVideoTranslation") {} else if (flavorName == "embossedBrailleScripture") {} else {
+        } else if (flavorName == "typesetScripture") {
+
+        } else if (flavorName == "signLanguageVideoTranslation") {
+            typeJson.flavorType.flavor.contentByChapter = true;
+        } else if (flavorName == "embossedBrailleScripture") {
+
+        } else {
             throw new Error("Unknown medium " + flavorName);
         }
         self.sbMetadata.type = typeJson;
