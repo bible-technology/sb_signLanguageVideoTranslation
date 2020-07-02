@@ -1,0 +1,108 @@
+<DBLMetadata xmlns:dbl="https://www.thedigitalbiblelibrary.org" version="2.2.1" revision="6" id="3d4e4af52ce24fff">
+  <identification>
+    <name>Thai Sign-Language Fragment</name>
+    <nameLocal>พระคริสตธรรมคัมภีร์ฉบับภาษามือไทย</nameLocal>
+    <description>Thai Sign Language Bible</description>
+    <dateCompleted>2017-04-07T15:05:47</dateCompleted>
+    <bundleProducer>DBL bundleMaker</bundleProducer>
+    <abbreviation>TSLF</abbreviation>
+    <scope>Portions</scope>
+  </identification>
+  <relationships/>
+  <agencies>
+    <rightsHolder>
+      <abbr>DBLUNITTEST</abbr>
+      <url>http://thedigitalbiblelibrary.org/#</url>
+      <uid>d41b7b7e1c41d27efc13f05f</uid>
+      <name>DBLUnit Test Organization</name>
+    </rightsHolder>
+    <contributor>
+      <content>true</content>
+      <publication>true</publication>
+      <management>true</management>
+      <qa>true</qa>
+      <uid>54650cd05117ad67b3826e99</uid>
+      <name>American Bible Society</name>
+    </contributor>
+  </agencies>
+  <language>
+    <iso>tsq</iso>
+    <name>Thai Sign Language</name>
+    <script>Thai</script>
+    <scriptDirection>LTR</scriptDirection>
+    <numerals>Thai</numerals>
+  </language>
+  <countries>
+    <country>
+      <iso>TH</iso>
+      <name>Thailand</name>
+    </country>
+  </countries>
+  <type>
+    <medium>video</medium>
+    <hasCharacters>false</hasCharacters>
+    <isTranslation>false</isTranslation>
+    <isExpression>true</isExpression>
+    <isConfidential>false</isConfidential>
+  </type>
+  <format>
+    <container>MP4</container>
+    <videoStream>
+      <codec>H264</codec>
+      <bitRate>64000000</bitRate>
+      <frameRate>30</frameRate>
+      <screenResolution>1920x1080</screenResolution>
+    </videoStream>
+    <audioStream>
+      <compression>MP3</compression>
+      <trackConfiguration>2/0 (Stereo)</trackConfiguration>
+      <bitRate>128000</bitRate>
+      <bitDepth>16</bitDepth>
+      <samplingRate>44100</samplingRate>
+    </audioStream>
+    <subtitleStream/>
+  </format>
+  <manifest>
+    <resource size="40130560" checksum="1498ac8c2d56e88542b6b6936f7e41fd" mimeType="video/mpeg" uri="MK_1_frag.mpg"/>
+    <resource mimeType="text/plain" size="16" checksum="48856c1b472c9102808c8800cddb29bd" uri="foo.txt"/>
+  </manifest>
+  <names>
+    <name id="section-mrk_1_1-8">
+      <short>การประกาศของยอห์นผู้ให้บัพติศมา</short>
+    </name>
+  </names>
+  <source>
+    </source>
+  <publications>
+    <publication id="p1">
+      <name>Mark</name>
+      <nameLocal>มาระโก</nameLocal>
+      <description>Thai Sign Language Bible - Mark</description>
+      <descriptionLocal>พระคริสตธรรมคัมภีร์ฉบับภาษามือไทย - มาระโก</descriptionLocal>
+      <canonicalContent>
+        <book code="MRK"/>
+      </canonicalContent>
+      <structure>
+        <content src="MK_1_frag.mp4" name="section-mrk_1_1-8" role="MRK 1:1-8"/>
+      </structure>
+    </publication>
+  </publications>
+  <archiveStatus>
+    <archivistName>Mark Howe</archivistName>
+    <comments>Testing video upload</comments>
+  <dateArchived>2020-06-08T16:09:27.905894</dateArchived><dateUpdated>2020-06-08T16:09:27.905894</dateUpdated></archiveStatus>
+  <copyright>
+    <fullStatement>
+      <statementContent type="xhtml">
+        <p>
+          <a href="http://www.thaibible.or.th/">Thailand Bible Society</a>
+        </p>
+      </statementContent>
+    </fullStatement>
+  </copyright>
+  <promotion>
+    <promoVersionInfo contentType="xhtml">
+      <p>Thai Sign Language Bible.</p>
+    </promoVersionInfo>
+  </promotion>
+</DBLMetadata>
