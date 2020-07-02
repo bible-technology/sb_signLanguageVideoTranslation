@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  valid-per-develop:
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      # Installs node
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - run: npm install ajv
+      - run: |
+          wget https://github.com/bible-technology/scripture-burrito/archive/develop.zip
+          unzip develop.zip
+      - run: node scripture-burrito-develop/code/validate.js metadata build/metadata.json
+
